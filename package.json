@@ -1,18 +1,19 @@
 {
-  "name": "ireumirum",
+  "name": "lreumirum",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
+    "@apps-in-toss/web-framework": "latest",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.2",
-    "vite": "^7.1.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
   }
 }
